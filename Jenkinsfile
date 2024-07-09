@@ -4,7 +4,7 @@ node {
     }
 
     stage('Build image') {
-       dockerImage = docker.build("jyong/web_count:v1.0")
+       dockerImage = docker.build("jyong12/web_count:v1.0")
     }
 
     stage('Push image') {
